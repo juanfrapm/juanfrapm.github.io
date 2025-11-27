@@ -23,30 +23,36 @@
 
   /* gradient */
 
-  --bg-gradient-onyx: linear-gradient(
-    to bottom right,
-    #1d222c 3%,
-    #10131a 97%
-  );
+--bg-gradient-onyx: linear-gradient(
+  to bottom right,
+  #3e4a44 3%,     /* gris–verde medio */
+  #2f3834 97%     /* gris–verde oscuro suave */
+);
 
-  --bg-gradient-jet: linear-gradient(
-    to bottom right,
-    rgba(24, 28, 38, 0.25) 0%,
-    rgba(9, 11, 17, 0) 100%
-  ), #141821;
+--bg-gradient-jet: linear-gradient(
+  to bottom right,
+  rgba(62, 74, 68, 0.35) 0%,
+  rgba(47, 56, 52, 0) 100%
+), #36413b;
 
-  /* ahora usan verde suave, con toques muy sutiles */
-  --bg-gradient-yellow-1: linear-gradient(
-    to bottom right,
-    rgba(129, 199, 132, 0.9) 0%,
-    rgba(129, 199, 132, 0) 50%
-  );
+/* sutiles brillos verdes */
+--bg-gradient-yellow-1: linear-gradient(
+  to bottom right,
+  rgba(129, 199, 132, 0.55) 0%,
+  rgba(129, 199, 132, 0.08) 50%
+);
 
-  --bg-gradient-yellow-2: linear-gradient(
-    135deg,
-    rgba(129, 199, 132, 0.25) 0%,
-    rgba(229, 115, 115, 0) 59.86%
-  ), #141821;
+--bg-gradient-yellow-2: linear-gradient(
+  135deg,
+  rgba(129, 199, 132, 0.22) 0%,
+  rgba(229, 115, 115, 0) 60%
+), #2f3834;
+
+/* tonos base actualizados */
+--smoky-black: #28302d;
+--eerie-black-1: #2f3834;
+--eerie-black-2: #36413b;
+
 
   --border-gradient-onyx: linear-gradient(
     to bottom right,
@@ -65,9 +71,6 @@
 
   --jet: #2b323f;
   --onyx: #1c212b;
-  --eerie-black-1: #141821;
-  --eerie-black-2: #181c26;
-  --smoky-black: #0a0c12;
 
   --white-1: #ffffff;
   --white-2: #f5f5f6;
