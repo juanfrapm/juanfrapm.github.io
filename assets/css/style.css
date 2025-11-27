@@ -48,10 +48,7 @@
   rgba(229, 115, 115, 0) 60%
 ), #2f3834;
 
-/* tonos base actualizados */
---smoky-black: #28302d;
---eerie-black-1: #2f3834;
---eerie-black-2: #36413b;
+
 
 
   --border-gradient-onyx: linear-gradient(
@@ -71,7 +68,9 @@
 
   --jet: #2b323f;
   --onyx: #1c212b;
-
+  --smoky-black: #28302d;
+  --eerie-black-1: #2f3834;
+  --eerie-black-2: #36413b;
   --white-1: #ffffff;
   --white-2: #f5f5f6;
 
