@@ -53,7 +53,39 @@ for (let i = 0; i < testimonialsItem.length; i++) {
 modalCloseBtn.addEventListener("click", testimonialsModalFunc);
 overlay.addEventListener("click", testimonialsModalFunc);
 
+// ------ PORTFOLIO MODAL (reutiliza el mismo modal que Testimonials) ------
+const portfolioItems = document.querySelectorAll("[data-portfolio-item]");
 
+for (let i = 0; i < portfolioItems.length; i++) {
+
+  portfolioItems[i].addEventListener("click", function (event) {
+    event.preventDefault();
+
+    const projectImg = this.querySelector("img");
+    const projectTitle = this.querySelector(".project-title");
+    const projectDescription = this.dataset.portfolioText;
+
+    if (projectImg) {
+      modalImg.src = projectImg.src;
+      modalImg.alt = projectImg.alt;
+    }
+
+    if (projectTitle) {
+      modalTitle.innerHTML = projectTitle.innerHTML;
+    } else {
+      modalTitle.innerHTML = "";
+    }
+
+    if (projectDescription) {
+      modalText.innerHTML = `<p>${projectDescription}</p>`;
+    } else {
+      modalText.innerHTML = "";
+    }
+
+    testimonialsModalFunc();
+  });
+
+}
 
 // custom select variables
 const select = document.querySelector("[data-select]");
