@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<svg width="34" height="23" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+<svg width="34" height="23" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34 23">
  <defs>
   <radialGradient id="svg_4" r="1" spreadMethod="pad">
    <stop offset="0.26" stop-color="#d67e79" stop-opacity="0.99"/>
